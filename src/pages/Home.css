@@ -1,0 +1,16 @@
+.home {
+  text-align: center;
+  display: grid;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+  background-image: url('/img/caceres.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

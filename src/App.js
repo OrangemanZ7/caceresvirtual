@@ -1,11 +1,9 @@
 import React from 'react'
 
-function App() {
-  return (
-    <div>
-      <h1>CÁCERES VIRTUAL</h1>
-    </div>
-  )
+import Home from './pages/Home'
+
+const App = () => {
+  return <Home />
 }
 
 export default App
