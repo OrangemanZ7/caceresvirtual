@@ -135,10 +135,10 @@ const Home = () => {
               Cáceres, MT
               <br />
               <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-              Celular: (65) 99611-7368
+              (65) 99611-7368
               <br />
               <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-              Email: suporte@caceresvirtual.com.br
+              suporte@caceresvirtual.com.br
               <br />
             </div>
 
