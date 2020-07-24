@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
+import Home from '../../pages/Home'
 
 import './Body.css'
 
 const Body = () => {
   return (
-    <div className='bodycss'>
-      <h1>Conteúdo</h1>
-    </div>
+    <Fragment>
+      <Header />
+      <Home />
+      <Footer />
+    </Fragment>
   )
 }
 

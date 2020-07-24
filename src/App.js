@@ -1,9 +1,11 @@
 import React from 'react'
 
-import Home from './pages/Home'
+import './App.css'
+
+import Body from './components/Body/Body'
 
 const App = () => {
-  return <Home />
+  return <Body />
 }
 
 export default App

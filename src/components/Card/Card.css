@@ -1,0 +1,35 @@
+.card {
+  width: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  text-align: justify;
+  color: black;
+  margin: 2px 2px;
+  background-color: white;
+  order: 5;
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.conte {
+  padding: 2px 8px;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-align: right;
+}
+
+.price {
+  text-align: right;
+  margin: 4px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
