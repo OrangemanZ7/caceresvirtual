@@ -55,7 +55,7 @@ const Home = () => {
       <div className='w3-content w3-container w3-padding-64'>
         <p className='w3-center'>
           <em />
-          Lojas em destaque
+          Em destaque
           <em />
         </p>
         <br />
@@ -110,12 +110,11 @@ const Home = () => {
 
       <div className='bgimg-3 w3-display-container w3-opacity-min' id='contact'>
         <div className='w3-display-middle'>
-          <span className='w3-xxlarge w3-text-white w3-wide'>CONTATO</span>
+          <span className='w3-xxlarge w3-text-white w3-wide'>FALE CONOSCO</span>
         </div>
       </div>
 
       <div className='w3-content w3-container w3-padding-64'>
-        <h3 className='w3-center'>FALE CONOSCO</h3>
         <p className='w3-center'>
           <em>Entre em contato</em>
         </p>
@@ -145,7 +144,7 @@ const Home = () => {
 
             <p>
               Passe por aqui para um <i className='fa fa-coffee'></i>, ou deixe
-              uma nota:
+              um recado:
             </p>
 
             <form action='/action_page.php' target='_blank'>
