@@ -11,7 +11,7 @@ body,
 html {
   height: 100%;
   color: #777;
-  line-height: 1.8;
+  line-height: 1.2;
 }
 
 /* Create a Parallax Effect */
@@ -33,13 +33,13 @@ html {
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url('/img/caceres-2.jpeg');
-  min-height: 400px;
+  min-height: 30vh;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url('/img/caceres-3.jpeg');
-  min-height: 400px;
+  min-height: 30vh;
 }
 
 .w3-wide {

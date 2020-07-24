@@ -19,7 +19,7 @@ const Header = () => {
     <div className='w3-top'>
       <div className='w3-bar' id='myNavbar'>
         <a
-          className='w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right'
+          className='w3-bar-item w3-button w3-hover-grey w3-hide-medium w3-hide-large w3-right w3-text-black'
           href='/'
           title='Toggle Navigation Menu'
           onClick={(e) => toggleFunction(e)}

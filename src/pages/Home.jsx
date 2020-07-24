@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <Fragment>
       <div className='bgimg-1 w3-display-container w3-opacity-min' id='home'>
-        <div className='w3-display-middle'>
+        <div className='w3-display-middle  w3-center'>
           <span className='w3-xxlarge w3-text-white w3-wide'>
             CÁCERES VIRTUAL
           </span>
@@ -109,7 +109,7 @@ const Home = () => {
       </div>
 
       <div className='bgimg-3 w3-display-container w3-opacity-min' id='contact'>
-        <div className='w3-display-middle'>
+        <div className='w3-display-middle  w3-center'>
           <span className='w3-xxlarge w3-text-white w3-wide'>FALE CONOSCO</span>
         </div>
       </div>
