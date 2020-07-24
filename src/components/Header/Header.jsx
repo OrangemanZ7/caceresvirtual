@@ -26,13 +26,19 @@ const Header = () => {
         >
           <i className='fa fa-bars'></i>
         </a>
-        <a href='#home' className='w3-bar-item w3-button'>
+        <a href='#home' className='w3-bar-item w3-button w3-text-black'>
           <i className='fa fa-home'></i>
         </a>
-        <a href='#portfolio' className='w3-bar-item w3-button w3-hide-small'>
-          <i className='fa fa-th'></i> PORTFOLIO
+        <a
+          href='#portfolio'
+          className='w3-bar-item w3-button w3-hide-small w3-text-black'
+        >
+          <i className='fa fa-th'></i> LOJAS
         </a>
-        <a href='#contact' className='w3-bar-item w3-button w3-hide-small'>
+        <a
+          href='#contact'
+          className='w3-bar-item w3-button w3-hide-small w3-text-black'
+        >
           <i className='fa fa-envelope'></i> CONTATO
         </a>
       </div>
@@ -48,7 +54,7 @@ const Header = () => {
             toggleFunction(e)
           }}
         >
-          PORTFOLIO
+          LOJAS
         </a>
         <a
           href='#contact'

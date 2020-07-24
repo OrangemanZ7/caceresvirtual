@@ -26,8 +26,8 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/img/caceres-3.jpg');
-  min-height: 100%;
+  background-image: url('/img/caceres-1.jpeg');
+  min-height: 100vh;
 }
 
 /* Second image (Portfolio) */
@@ -38,7 +38,7 @@ html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('/img/caceres-1.jpeg');
+  background-image: url('/img/caceres-3.jpeg');
   min-height: 400px;
 }
 
