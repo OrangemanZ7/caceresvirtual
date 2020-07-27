@@ -34,12 +34,12 @@ const Home = () => {
       </div>
 
       <div className='w3-content w3-container w3-padding-64'>
-        <p className='w3-center'>
+        <div className='w3-center'>
           <h1>
             Tenha o seu negócio ou serviço divulgado na internet, para cada caso
             temos uma solução para o seu negócio.
           </h1>
-        </p>
+        </div>
         <br />
       </div>
 
