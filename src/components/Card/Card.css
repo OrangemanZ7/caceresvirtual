@@ -1,5 +1,5 @@
 .card {
-  width: 180px;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
@@ -19,15 +19,19 @@
 }
 
 .title {
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: bold;
+  margin-top: 6px;
   margin-bottom: 2px;
-  text-align: right;
+  text-align: center;
 }
 
 .price {
-  text-align: right;
-  margin: 4px;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  text-align: center;
 }
 
 img {

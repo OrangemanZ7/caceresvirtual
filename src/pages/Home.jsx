@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
 
+import Card from '../components/Card/Card'
+
 import './Home.css'
 
 //function onClick(element) {
@@ -61,37 +63,39 @@ const Home = () => {
         <br />
 
         <div className='w3-row-padding w3-center'>
-          <div className='w3-col m3'>
+          <div className='w3-col m6'>
             <img
               src='/img/caceres-1.jpeg'
-              style={{ width: '100%' }}
+              style={{ width: '400px', height: '250px' }}
               className='w3-hover-opacity'
               alt='The mist over the mountains'
             />
           </div>
 
-          <div className='w3-col m3'>
+          <div className='w3-col m6'>
             <img
               src='/img/caceres-2.jpeg'
-              style={{ width: '100%' }}
+              style={{ width: '400px', height: '250px' }}
               className='w3-hover-opacity'
               alt='Coffee beans'
             />
           </div>
-
-          <div className='w3-col m3'>
+        </div>
+        <br />
+        <div className='w3-row-padding w3-center'>
+          <div className='w3-col m6'>
             <img
               src='/img/caceres-3.jpeg'
-              style={{ width: '100%' }}
+              style={{ width: '400px', height: '250px' }}
               className='w3-hover-opacity'
               alt='Bear closeup'
             />
           </div>
 
-          <div className='w3-col m3'>
+          <div className='w3-col m6'>
             <img
-              src='/img/caceres-1.jpeg'
-              style={{ width: '100%' }}
+              src='/img/caceres-4.jpeg'
+              style={{ width: '400px', height: '250px' }}
               className='w3-hover-opacity'
               alt='Quiet ocean'
             />
@@ -105,6 +109,38 @@ const Home = () => {
           >
             VER MAIS
           </button>
+        </div>
+      </div>
+
+      <div className='bgimg-4 w3-display-container w3-opacity-min' id='planos'>
+        <div className='w3-display-middle w3-center'>
+          <span className='w3-xxlarge w3-text-white w3-wide'>PLANOS</span>
+        </div>
+      </div>
+
+      <div className='w3-content w3-container w3-padding-64'>
+        <div className='w3-row-padding w3-center'>
+          <div className='w3-col m4'>
+            <Card
+              imagem='planos-s.jpeg'
+              nome='START'
+              preco='29,90'
+              cor='blue'
+            />
+          </div>
+
+          <div className='w3-col m4'>
+            <Card
+              imagem='planos-m.jpeg'
+              nome='MÉDIO'
+              preco='59,90'
+              cor='orange'
+            />
+          </div>
+
+          <div className='w3-col m4'>
+            <Card imagem='planos-g.jpeg' nome='GIGA' preco='99,90' cor='red' />
+          </div>
         </div>
       </div>
 
