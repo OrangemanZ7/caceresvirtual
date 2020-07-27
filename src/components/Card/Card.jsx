@@ -17,7 +17,7 @@ const Card = (props) => {
         </div>
         <div className='price' style={{ color: `${cor}` }}>
           {' '}
-          >R$ {preco}/mês
+          R$ {preco}/mês
         </div>
       </div>
     </div>

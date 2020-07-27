@@ -66,7 +66,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-1.jpeg'
-              style={{ width: '400px', height: '250px' }}
+              style={{ width: '250px', height: '120px' }}
               className='w3-hover-opacity'
               alt='The mist over the mountains'
             />
@@ -75,7 +75,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-2.jpeg'
-              style={{ width: '400px', height: '250px' }}
+              style={{ width: '250px', height: '120px' }}
               className='w3-hover-opacity'
               alt='Coffee beans'
             />
@@ -86,7 +86,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-3.jpeg'
-              style={{ width: '400px', height: '250px' }}
+              style={{ width: '250px', height: '120px' }}
               className='w3-hover-opacity'
               alt='Bear closeup'
             />
@@ -95,7 +95,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-4.jpeg'
-              style={{ width: '400px', height: '250px' }}
+              style={{ width: '250px', height: '120px' }}
               className='w3-hover-opacity'
               alt='Quiet ocean'
             />
@@ -142,6 +142,11 @@ const Home = () => {
             <Card imagem='planos-g.jpeg' nome='GIGA' preco='99,90' cor='red' />
           </div>
         </div>
+        <p className='w3-center' style={{ marginTop: '64px' }}>
+          <em />
+          Para outros planos entre em contato
+          <em />
+        </p>
       </div>
 
       <div className='bgimg-3 w3-display-container w3-opacity-min' id='contact'>
