@@ -55,18 +55,11 @@ const Home = () => {
       </div>
 
       <div className='w3-content w3-container w3-padding-64'>
-        <p className='w3-center'>
-          <em />
-          Em destaque
-          <em />
-        </p>
-        <br />
-
-        <div className='w3-row-padding w3-center'>
+        <div className='w3-center'>
           <div className='w3-col m6'>
             <img
-              src='/img/caceres-1.jpeg'
-              style={{ width: '250px', height: '120px' }}
+              src='/img/caceres-1.jpg'
+              style={{ width: '60%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='The mist over the mountains'
             />
@@ -74,19 +67,19 @@ const Home = () => {
 
           <div className='w3-col m6'>
             <img
-              src='/img/caceres-2.jpeg'
-              style={{ width: '250px', height: '120px' }}
+              src='/img/caceres-2.jpg'
+              style={{ width: '60%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Coffee beans'
             />
           </div>
         </div>
         <br />
-        <div className='w3-row-padding w3-center'>
+        <div className='w3-center'>
           <div className='w3-col m6'>
             <img
-              src='/img/caceres-3.jpeg'
-              style={{ width: '250px', height: '120px' }}
+              src='/img/caceres-3.jpg'
+              style={{ width: '60%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Bear closeup'
             />
@@ -94,8 +87,8 @@ const Home = () => {
 
           <div className='w3-col m6'>
             <img
-              src='/img/caceres-4.jpeg'
-              style={{ width: '250px', height: '120px' }}
+              src='/img/caceres-4.jpg'
+              style={{ width: '60%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Quiet ocean'
             />
@@ -123,6 +116,12 @@ const Home = () => {
           <div className='w3-col m4'>
             <Card
               imagem='planos-s.jpeg'
+              icon1='fa fa-check'
+              texto1='Página apresentação'
+              icon2='fa fa-check'
+              texto2='Exposição produtos'
+              icon3='fa fa-check'
+              texto3='Redes sociais'
               nome='START'
               preco='29,90'
               cor='blue'
@@ -132,6 +131,12 @@ const Home = () => {
           <div className='w3-col m4'>
             <Card
               imagem='planos-m.jpeg'
+              icon1='fa fa-check'
+              texto1='Plano START'
+              icon2='fa fa-plus'
+              texto2='Diretório produtos'
+              icon3='fa fa-plus'
+              texto3='Encomenda online'
               nome='MÉDIO'
               preco='59,90'
               cor='orange'
@@ -139,12 +144,23 @@ const Home = () => {
           </div>
 
           <div className='w3-col m4'>
-            <Card imagem='planos-g.jpeg' nome='GIGA' preco='99,90' cor='red' />
+            <Card
+              imagem='planos-g.jpeg'
+              icon1='fa fa-check'
+              texto1='Plano MÉDIO'
+              icon2='fa fa-plus'
+              texto2='Pagamento online'
+              icon3='fa fa-plus'
+              texto3='URL e E-mail'
+              nome='GIGA'
+              preco='99,90'
+              cor='red'
+            />
           </div>
         </div>
         <p className='w3-center' style={{ marginTop: '64px' }}>
           <em />
-          Para outros planos entre em contato
+          Para outras opções entre em contato
           <em />
         </p>
       </div>
@@ -155,31 +171,31 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='w3-content w3-container w3-padding-64'>
-        <p className='w3-center'>
-          <em>Entre em contato</em>
-        </p>
-
-        <div className='w3-row w3-padding-32 w3-section '>
+      <div className='w3-content w3-container w3-padding'>
+        <div className='w3-row w3-padding w3-section '>
           <div className='w3-col m4 w3-container'>
             <img
-              src='/img/caceres-3.jpeg'
+              src='/img/caceres-3.jpg'
               className='w3-image w3-round w3-hide-small'
-              style={{ width: 'auto', height: '270px' }}
+              style={{ width: '100%', height: 'auto', marginTop: '16px' }}
               alt=''
             />
           </div>
 
           <div className='w3-col m8 w3-panel'>
             <div className='w3-large w3-margin-bottom'>
-              <i className='fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+              <i className='fa fa-map-marker fa-fw  w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
               Cáceres, MT
               <br />
-              <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-              (65) 99611-7368
+              <a href='https://wa.me/5565996117368'>
+                <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+                (65) 99611-7368
+              </a>
               <br />
-              <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-              suporte@caceresvirtual.com.br
+              <a href='mailto:suporte@caceresvirtual.com.br'>
+                <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+                suporte@caceresvirtual.com.br
+              </a>
               <br />
             </div>
 

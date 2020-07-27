@@ -27,27 +27,27 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/img/caceres-1.jpeg');
+  background-image: url('/img/caceres-1.jpg');
   height: 100vh;
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('/img/caceres-2.jpeg');
+  background-image: url('/img/caceres-2.jpg');
   height: 30vh;
   min-height: 100%;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('/img/caceres-3.jpeg');
+  background-image: url('/img/caceres-3.jpg');
   height: 30vh;
   min-height: 100%;
 }
 
 .bgimg-4 {
-  background-image: url('/img/caceres-4.jpeg');
+  background-image: url('/img/caceres-4.jpg');
   height: 30vh;
   min-height: 100%;
 }
@@ -67,4 +67,8 @@ html {
   .bgimg-4 {
     min-height: 15vh;
   }
+}
+
+a {
+  text-decoration: none;
 }
