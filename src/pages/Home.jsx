@@ -24,9 +24,10 @@ const Home = () => {
 
       <div className='w3-content w3-container w3-padding-64'>
         <p className='w3-center'>
-          <em />
-          Texto apresentação da finalidade do site
-          <em />
+          <h1>
+            Tenha o seu negócio ou serviço divulgado na internet, para cada caso
+            temos uma solução para o seu negócio.
+          </h1>
         </p>
         <br />
 
@@ -59,7 +60,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-1.jpg'
-              style={{ width: '60%', height: 'auto', padding: '4px' }}
+              style={{ width: '80%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='The mist over the mountains'
             />
@@ -68,7 +69,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-2.jpg'
-              style={{ width: '60%', height: 'auto', padding: '4px' }}
+              style={{ width: '80%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Coffee beans'
             />
@@ -79,7 +80,7 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-3.jpg'
-              style={{ width: '60%', height: 'auto', padding: '4px' }}
+              style={{ width: '80%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Bear closeup'
             />
@@ -88,20 +89,11 @@ const Home = () => {
           <div className='w3-col m6'>
             <img
               src='/img/caceres-4.jpg'
-              style={{ width: '60%', height: 'auto', padding: '4px' }}
+              style={{ width: '80%', height: 'auto', padding: '4px' }}
               className='w3-hover-opacity'
               alt='Quiet ocean'
             />
           </div>
-        </div>
-
-        <div className='w3-row-padding w3-center w3-section'>
-          <button
-            className='w3-button w3-padding-large w3-light-grey'
-            style={{ marginTop: '64px' }}
-          >
-            VER MAIS
-          </button>
         </div>
       </div>
 

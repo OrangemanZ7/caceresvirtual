@@ -27,7 +27,7 @@ html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/img/caceres-1.jpg');
+  background-image: url('/img/caceres.jpeg');
   height: 100vh;
   min-height: 100%;
 }
