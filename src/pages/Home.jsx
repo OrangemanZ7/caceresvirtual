@@ -184,17 +184,19 @@ const Home = () => {
 
           <div className='w3-col m8 w3-panel'>
             <div className='w3-large w3-margin-bottom'>
-              <i className='fa fa-map-marker fa-fw  w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+              <a href='https://www.google.com/maps/@-16.0643843,-57.6757311,21z'>
+                <i className='fa fa-map-marker fa-fw  w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+              </a>
               Cáceres, MT
               <br />
-              <a href='https://wa.me/5565996117368'>
+              <a href='tel:65996117368'>
                 <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
                 (65) 99611-7368
               </a>
               <br />
               <a href='mailto:suporte@caceresvirtual.com.br'>
                 <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-                suporte@caceresvirtual.com.br
+                suporte@caceresvirtual
               </a>
               <br />
             </div>
