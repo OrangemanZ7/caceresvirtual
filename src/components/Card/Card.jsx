@@ -34,15 +34,19 @@ const Card = (props) => {
             <i className={icon3} /> {texto3}
           </h3>
         </div>
-        <hr />
+        {preco ? <hr /> : null}
 
         <div className='title' style={{ color: `${cor}` }}>
           <b>{nome}</b>
         </div>
-        <div className='price' style={{ color: `${cor}` }}>
-          {' '}
-          R$ {preco}/mês
-        </div>
+        {preco ? (
+          <div className='price' style={{ color: `${cor}` }}>
+            {' '}
+            R$ {preco}/mês
+          </div>
+        ) : (
+          <br />
+        )}
       </div>
     </div>
   )

@@ -50,7 +50,8 @@ const Header = () => {
       </div>
       <div
         id='navDemo'
-        className='w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium'
+        className='w3-bar-block w3-grey w3-hide w3-hide-large w3-hide-medium w3-center'
+        style={{ opacity: '0.9', fontWeight: 'bolder' }}
       >
         <a
           href='#portfolio'
@@ -60,8 +61,10 @@ const Header = () => {
             toggleFunction(e)
           }}
         >
-          LOJAS
+          <br />
+          LOJAS VIRTUAIS
         </a>
+        <hr />
         <a
           href='#planos'
           className='w3-bar-item w3-button'
@@ -72,6 +75,7 @@ const Header = () => {
         >
           PLANOS
         </a>
+        <hr />
         <a
           href='#contact'
           className='w3-bar-item w3-button'
@@ -82,6 +86,7 @@ const Header = () => {
         >
           CONTATO
         </a>
+        <br />
       </div>
     </div>
   )

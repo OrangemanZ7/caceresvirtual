@@ -18,6 +18,17 @@ const Home = () => {
         <div className='w3-display-middle  w3-center'>
           <span className='w3-xxlarge w3-text-white w3-wide'>
             CÁCERES VIRTUAL
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <a href='#portfolio'>
+              <i className='fa fa-arrow-circle-o-down fa-2x'></i>
+            </a>
           </span>
         </div>
       </div>
@@ -30,18 +41,6 @@ const Home = () => {
           </h1>
         </p>
         <br />
-
-        <div className='w3-row-padding w3-center w3-section'>
-          <button
-            className='w3-button w3-padding-large w3-light-grey'
-            style={{ marginTop: '64px' }}
-            onClick={(e) => {
-              window.location.href = '#contact'
-            }}
-          >
-            CONTATO
-          </button>
-        </div>
       </div>
 
       <div
@@ -56,42 +55,65 @@ const Home = () => {
       </div>
 
       <div className='w3-content w3-container w3-padding-64'>
-        <div className='w3-center'>
-          <div className='w3-col m6'>
-            <img
-              src='/img/caceres-1.jpg'
-              style={{ width: '80%', height: 'auto', padding: '4px' }}
-              className='w3-hover-opacity'
-              alt='The mist over the mountains'
+        <div className='w3-row w3-center'>
+          <div className='w3-col m6 w3-padding'>
+            <Card
+              imagem='comida.jpeg'
+              icon1=''
+              texto1=''
+              icon2=''
+              texto2=''
+              icon3=''
+              texto3=''
+              nome='Alimentação'
+              preco=''
+              cor='grey'
             />
           </div>
 
-          <div className='w3-col m6'>
-            <img
-              src='/img/caceres-2.jpg'
-              style={{ width: '80%', height: 'auto', padding: '4px' }}
-              className='w3-hover-opacity'
-              alt='Coffee beans'
+          <div className='w3-col m6 w3-padding'>
+            <Card
+              imagem='roupas.jpeg'
+              icon1=''
+              texto1=''
+              icon2=''
+              texto2=''
+              icon3=''
+              texto3=''
+              nome='Vestuário'
+              preco=''
+              cor='gray'
             />
           </div>
         </div>
-        <br />
-        <div className='w3-center'>
-          <div className='w3-col m6'>
-            <img
-              src='/img/caceres-3.jpg'
-              style={{ width: '80%', height: 'auto', padding: '4px' }}
-              className='w3-hover-opacity'
-              alt='Bear closeup'
+        <div className='w3-row w3-center'>
+          <div className='w3-col m6 w3-padding'>
+            <Card
+              imagem='servicos.jpeg'
+              icon1=''
+              texto1=''
+              icon2=''
+              texto2=''
+              icon3=''
+              texto3=''
+              nome='Serviços'
+              preco=''
+              cor='gray'
             />
           </div>
 
-          <div className='w3-col m6'>
-            <img
-              src='/img/caceres-4.jpg'
-              style={{ width: '80%', height: 'auto', padding: '4px' }}
-              className='w3-hover-opacity'
-              alt='Quiet ocean'
+          <div className='w3-col m6 w3-padding'>
+            <Card
+              imagem='supermercado.jpeg'
+              icon1=''
+              texto1=''
+              icon2=''
+              texto2=''
+              icon3=''
+              texto3=''
+              nome='Supermercados'
+              preco=''
+              cor='gray'
             />
           </div>
         </div>
@@ -105,7 +127,7 @@ const Home = () => {
 
       <div className='w3-content w3-container w3-padding-64'>
         <div className='w3-row-padding w3-center'>
-          <div className='w3-col m4'>
+          <div className='w3-col m4 w3-padding'>
             <Card
               imagem='planos-s.jpeg'
               icon1='fa fa-check'
@@ -115,12 +137,12 @@ const Home = () => {
               icon3='fa fa-check'
               texto3='Redes sociais'
               nome='START'
-              preco='29,90'
+              preco='19,90'
               cor='blue'
             />
           </div>
 
-          <div className='w3-col m4'>
+          <div className='w3-col m4 w3-padding'>
             <Card
               imagem='planos-m.jpeg'
               icon1='fa fa-check'
@@ -130,12 +152,12 @@ const Home = () => {
               icon3='fa fa-plus'
               texto3='Encomenda online'
               nome='MÉDIO'
-              preco='59,90'
+              preco='49,90'
               cor='orange'
             />
           </div>
 
-          <div className='w3-col m4'>
+          <div className='w3-col m4 w3-padding'>
             <Card
               imagem='planos-g.jpeg'
               icon1='fa fa-check'
@@ -145,7 +167,7 @@ const Home = () => {
               icon3='fa fa-plus'
               texto3='URL e E-mail'
               nome='GIGA'
-              preco='99,90'
+              preco='89,90'
               cor='red'
             />
           </div>
@@ -164,12 +186,12 @@ const Home = () => {
       </div>
 
       <div className='w3-content w3-container w3-padding'>
-        <div className='w3-row w3-padding w3-section '>
+        <div className='w3-row w3-section '>
           <div className='w3-col m4 w3-container'>
             <img
-              src='/img/caceres-3.jpg'
+              src='/img/caceres-1.jpg'
               className='w3-image w3-round w3-hide-small'
-              style={{ width: '100%', height: 'auto', marginTop: '16px' }}
+              style={{ width: '75%', height: 'auto', marginTop: '16px' }}
               alt=''
             />
           </div>
@@ -177,68 +199,28 @@ const Home = () => {
           <div className='w3-col m8 w3-panel'>
             <div className='w3-large w3-margin-bottom'>
               <a href='https://www.google.com/maps/@-16.0643843,-57.6757311,21z'>
-                <i className='fa fa-map-marker fa-fw  w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+                <i className='fa fa-map-marker fa-fw  w3-hover-text-black w3-xlarge w3-margin-right'></i>
               </a>
               Cáceres, MT
               <br />
+              <br />
               <a href='tel:65996117368'>
-                <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
+                <i className='fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>
                 (65) 99611-7368
               </a>
               <br />
+              <br />
               <a href='mailto:suporte@caceresvirtual.com.br'>
-                <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>{' '}
-                suporte@caceresvirtual
+                <i className='fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right'></i>
+                suporte@caceresvirtual.com.br
               </a>
               <br />
             </div>
 
             <p>
               Passe por aqui para um <i className='fa fa-coffee'></i>, ou deixe
-              um recado:
+              um recado...
             </p>
-
-            <form action='/action_page.php' target='_blank'>
-              <div
-                className='w3-row-padding'
-                style={{ margin: '0 -16px 8px -16px' }}
-              >
-                <div className='w3-half'>
-                  <input
-                    className='w3-input w3-border'
-                    type='text'
-                    placeholder='Nome'
-                    required
-                    name='Name'
-                  />
-                </div>
-
-                <div className='w3-half'>
-                  <input
-                    className='w3-input w3-border'
-                    type='text'
-                    placeholder='Email'
-                    required
-                    name='Email'
-                  />
-                </div>
-              </div>
-
-              <input
-                className='w3-input w3-border'
-                type='text'
-                placeholder='Mensagem'
-                required
-                name='Message'
-              />
-
-              <button
-                className='w3-button w3-black w3-right w3-section'
-                type='submit'
-              >
-                <i className='fa fa-paper-plane'></i> ENVIAR MENSAGEM
-              </button>
-            </form>
           </div>
         </div>
       </div>
